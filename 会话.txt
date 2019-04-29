@@ -1,0 +1,6 @@
+session 生命周期，30分钟没人使用，就会摧毁
+<session-config>
+	<session-timeout>10<session-timeout>
+<session-config>
+以分钟来设置sessions时间
+如果流浪器禁用了cookie，则可以在请求页面加上 jsessionid达到
